@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+
 </head>
 <body>
-    
 
+    <center>
+        <h2>Snake and Ladders</h2>
+        <h2>Game</h2>
+
+    <div class = "board-wrapper">
+        <div id="board" class="board"> </div><!--JS fills this with 100 cells-->
+
+        <svg id="lines" viewBox="0 0 100 100"></svg> <!--JS draws snakes and ladders here-->
+        </div>
+        
+        <p class="legend">
+            <span class="key ladder-key">Ladder: climb up</span>
+            <span class="key snake-key">Snake: slide down</span>
+        </p>
+    </center>
 
     <script src="js/app.js"></script>
 </body>
